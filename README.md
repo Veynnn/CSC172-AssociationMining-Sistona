@@ -1,4 +1,4 @@
-# Data Mining and Exploratory Analysis of Dementia Patient Health Factors
+# Data Mining and Exploratory Analysis of Dementia Patient Health Factors [in progress]
 
 This project analyzes a dementia patient dataset from Kaggle to identify patterns and correlations among health, lifestyle, and cognitive factors. The work focuses on data cleaning, preprocessing, and creating visualizations to better understand variables associated with cognitive decline.
 
