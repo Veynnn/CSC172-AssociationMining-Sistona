@@ -35,4 +35,38 @@ This project implements the Apriori algorithm for association rule mining on a D
 - [References](#references)
 - [Appendix: Full Results](#appendix-full-results)
 
+## 1. Introduction
+### 1.1 Problem Statement
+Identify patterns and correlations among health factors, lifestyle choices, and cognitive outcomes in dementia patients to understand risk factor combinations and inform targeted healthcare interventions.
+
+### 1.2 Objectives
+- Preprocess dementia patient health data for association rule mining
+- Implement Apriori algorithm with parameter tuning for health factor analysis
+- Generate and evaluate top association rules between health indicators and cognitive function
+- Visualize patterns and derive clinical insights for dementia care
+
+### 1.3 Scope and Limitations
+**Scope:** Cross-sectional analysis of dementia patient health factors using association rule mining  
+**Limitations:** Association does not imply causation, no temporal analysis of disease progression, computational constraints on high-dimensional health data
+
+## 2. Dataset Description
+### 2.1 Source and Acquisition
+**Source:** [Dementia Patient Health Dataset (Kaggle)](https://www.kaggle.com/datasets/timothyadeyemi/dementia-patient-health-dataset)  
+**Size:** 9,835 patient records, 169 health indicators  
+**Format:** Patient ID + demographic data + health metrics + cognitive scores → Transaction basket format
+
+### 2.2 Data Structure
+Raw format (one row per patient):
+patient_id,age,gender,bmi,smoking_status,hypertension,diabetes,family_history,cognitive_score
+1,72,Male,28.4,Former,1,0,1,22
+2,68,Female,24.1,Never,0,0,0,28
+
+Transaction format (one row per patient with binned/categorized features):
+[['Age=70-79', 'Gender=Male', 'BMI=Overweight', 'Hypertension=Yes', 'Cognitive_Level=Low'], 
+ ['Age=60-69', 'Gender=Female', 'BMI=Normal', 'Hypertension=No', 'Cognitive_Level=High']]
+
+### 2.3 Sample Transactions
+Transaction 1: ['Age=70-79', 'Gender=Male', 'BMI=Overweight', 'Hypertension=Yes', 'Cognitive_Level=Low']
+Transaction 2: ['Age=60-69', 'Gender=Female', 'BMI=Normal', 'Hypertension=No', 'Cognitive_Level=High']
+Transaction 3: ['Age=80-89', 'Gender=Female', 'BMI=Obese', 'Diabetes=Yes', 'Family_History=Yes', 'Cognitive_Level=Low']
 
