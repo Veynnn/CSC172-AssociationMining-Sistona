@@ -1,4 +1,4 @@
-# [Data Mining and Exploratory Analysis of Dementia Patient Health Factors [in progress]]
+# Data Mining and Exploratory Analysis of Dementia Patient Health Factors [in progress]
 **CSC172 Data Mining and Analysis Final Project**  
 *Mindanao State University - Iligan Institute of Technology*  
 **Student:** [Lavigne Kaye Sistona], [2022-5619]  
