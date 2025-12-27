@@ -1,0 +1,11 @@
+Metric,Value
+Total Patients Analyzed,397
+Final Transactions,397
+Items Retained,50
+Frequent Itemsets,"200,739"
+Association Rules Generated,"274,844"
+Meaningful Rules (Lift > 1),"190,478"
+High Quality Rules,"2,553"
+Average Confidence,0.610
+Average Lift,1.205
+Maximum Lift,3.031
