@@ -169,8 +169,7 @@ Transaction 3: ['Age=80-89', 'Gender=Female', 'BMI=Obese', 'Diabetes=Yes', 'Fami
 The Apriori algorithm successfully identified 190,478 meaningful association rules from 397 dementia patient records, revealing patterns between genetic factors (APOE-ε4), metabolic conditions (diabetes), and other health indicators. While average association strengths were modest (lift=1.205), the presence of stronger associations (maximum lift=3.031) suggests clinically relevant patterns worthy of further investigation. These findings provide a foundation for developing targeted screening protocols and generating hypotheses for more detailed clinical research. Future work should focus on validating high-lift rules in larger, more diverse patient populations and incorporating temporal data to better understand disease progression pathways.
 
 ## 7. Video Presentation
-[![Final Presentation](demo/CSC172_Demo.mp4)]  
-Link: https://drive.google.com/file/d/11gj8otmCr7rVR0D6sDyZCcM30g9Ye4md/view?usp=sharing
+Link: [Final Presentation](https://drive.google.com/file/d/11gj8otmCr7rVR0D6sDyZCcM30g9Ye4md/view?usp=sharing)
 
 ## References
 1. mlxtend Documentation: https://rasbt.github.io/mlxtend/
